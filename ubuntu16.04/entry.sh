@@ -8,4 +8,6 @@ echo 'jenkins:x:'$UID':'$GID':,,,:/home/jenkins:/bin/bash' >> /etc/passwd
 
 sudo service docker start
 
+sudo chown -R jenkins:jenkins /home/jenkins
+
 bash
