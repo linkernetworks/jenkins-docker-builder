@@ -1,7 +1,5 @@
 import groovy.transform.Field
 
-@Field def imageName = "linkernetworks/jenkins-docker-builder"
-
 pipeline {
     agent none
     parameters {
